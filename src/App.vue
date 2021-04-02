@@ -1,6 +1,6 @@
 <template lang="pug">
-  div#app
-    h1 Under Construction...
+div#app
+  router-view
 </template>
 
 <script>
