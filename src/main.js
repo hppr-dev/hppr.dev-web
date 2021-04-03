@@ -5,6 +5,7 @@ import App from './App.vue'
 import Index from '@/views/Index.vue'
 import Gingorm from '@/views/Gingorm.vue'
 import Hopper from '@/views/Hopper.vue'
+import Baxter from '@/views/Baxter.vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -17,7 +18,8 @@ const router = new VueRouter({
   "routes": [
     { path: "/", component: Index },
     { path: "/gingorm", component: Gingorm},
-    { path: "/hopper", component: Hopper}
+    { path: "/hopper", component: Hopper},
+    { path: "/baxter", component: Baxter}
   ]
 });
 
